@@ -1,0 +1,25 @@
+.about-nart {
+
+  &__content {
+    width: 33%;
+    height: auto;
+    @include center;
+    float: right;
+
+
+    gap: 50px;
+    &--image {
+      width: auto;
+      img {
+        width: 100%;
+      }
+    }
+    &--text {
+      width: 500px;
+      padding: 2em;
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}
